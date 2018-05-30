@@ -1,6 +1,3 @@
-//TODO: Clean this all up.
-//TODO: Update SCSS.
-
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -63,10 +60,11 @@ header.masthead h1 {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
+/*
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
-
+*/
 
 @media (min-width: 768px) {
   header.masthead {
@@ -76,45 +74,6 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 5rem;
   }
-
-  ul.intro-social-buttons > li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-
-  ul.intro-social-buttons > li:last-child {
-    margin-bottom: 0;
-  }
-
-}
-
-header.features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-header.masthead .features-icons-item {
-  max-width: 20rem;
-}
-
-header.masthead .features-icons-item .features-icons-icon {
-  height: 7rem;
-}
-
-header.masthead .features-icons-item .features-icons-icon i {
-  font-size: 4.5rem;
-}
-
-header.masthead .features-icons-item:hover .features-icons-icon i {
-  font-size: 5rem;
-}
-
-
-
-.team-member {
-  margin-bottom: 50px;
-  text-align: center;
 }
 
 ul.social-buttons {

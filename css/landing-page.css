@@ -23,8 +23,8 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 25vh;
+  padding-bottom: 25vh;
 }
 
 header.masthead .overlay {
@@ -38,9 +38,12 @@ header.masthead .overlay {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
+.container{
+    margin-top: 12.5vh !important;
+}
 
 .intro-message {
     position: relative;
@@ -66,20 +69,6 @@ header.masthead h1 {
 }
 */
 
-@media (min-width: 768px) {
-  header.masthead {
-    padding-top: 20rem;
-    padding-bottom: 20rem;
-  }
-  header.masthead h1 {
-    font-size: 5rem;
-  }
-}
-
-ul.social-buttons {
-  margin-bottom: 100px;
-}
-
 ul.social-buttons li a {
   margin-top: 0rem;
   margin-right: 3rem;
@@ -100,4 +89,41 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+@media (max-width: 768px) {
+  header.masthead {
+    padding-top: 33vh;
+    padding-bottom: 33vh;
+  }
+  header.masthead h1 {
+    font-size: 14vw;
+  }
+  .container{
+    margin: auto !important;
+  }
+  .intro-divider {
+    width: 50vw;
+  }
+  ul.social-buttons li a {
+    margin-top: 0rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 30px;
+    line-height: 60px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  ul.social-buttons li a {
+    margin-top: 0rem;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    font-size: 4vw;
+    line-height: 9vw;
+    width: 9vw;
+    height: 9vw;
+  }
 }

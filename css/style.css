@@ -16,7 +16,7 @@ body {
 
 .masthead {
   text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-  background: url("../img/bg.jpg") no-repeat center center;
+  background: url("../img/bg_lowres.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,7 +31,6 @@ body {
   top: 0;
   left: 0;
   right: 0;
-
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
   -ms-animation: fadein 2s; /* Internet Explorer */
